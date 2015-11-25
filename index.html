@@ -29,13 +29,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- My Style -->
-    <link href="css/nav.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/skillBar.css" rel="stylesheet">
-    <link href="css/mac.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet"><!-- Navbar Style -->
+    <link href="css/style.css" rel="stylesheet"><!-- My Style -->
+    <link href="css/animate.min.css" rel="stylesheet"><!-- Animation.css Style -->
 
     <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,300,900,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Favicons -->
@@ -82,10 +80,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
   </head>
 
   <body>
-
 
     <div id="wrapper">
         <div class="overlay"></div>
@@ -139,9 +137,13 @@
                   Logotipo
                     <div id="caio-logo" style="background: url(img/logo-contact.png) center no-repeat; height: 150px; margin-bottom: 4%;"></div>
                 -->
-                <span class="hero-text caio">CAIO </span><span class="hero-text oliveira">OLIVEIRA</span>
-                <h2 style="font-weight: 300; color: #fff;">Designer <span style="font-weight: 800">&</span> Front-End Developer</h2>
-                <div class="caio-contato">
+                <div class="animated fadeInDown">
+                  <span class="hero-text caio">CAIO </span><span class="hero-text oliveira">OLIVEIRA</span>
+                </div>
+                <div class="animated fadeInUp">
+                  <h2 style="font-weight: 300; color: #fff;">Designer <span style="font-weight: 800">&</span> Front-End Developer</h2>
+                </div>
+                <div class="caio-contato animated fadeInUp">
                   <button class="ghost-button-thick-border">CONTATO</button>
                 </div>
                 <div id="startchange"></div><!-- Change Hamburger Color -->
@@ -155,7 +157,7 @@
             <!-- Meu Nome é Caio Oliveira -->
             <div id="caio-start"></div><!-- Start -->
             <section class="container-fluid padding" id="about-caio-oliveira"><!-- Section -->
-                <div class="caio-about">
+                <div class="caio-about wow animated fadeInLeft">
                   <p>Olá meu nome é <span class="dark-stuff">Caio Oliveira</span>, um freelancer front-end desenvolvedor com <span class="dark-stuff">+2 anos de experiência</span>, </p><p> trabalhando com HTML, CSS e jQuery. Atualmente morando em São Paulo, Brasil.</p>
                 </div>
             </section><!-- /Section -->
@@ -165,7 +167,7 @@
             <!-- Next Stage -->
             <section class="container-fluid padding center" id="abilities-caio-oliveira"><!-- Section -->
               <div class="caio-abilities container">
-                <div class="col-md-4"><!-- Design -->
+                <div class="col-md-4 wow animated fadeInLeft"><!-- Design -->
                   <div class="caio-icon">
                       <img class="caio-icon-img" src="img/caio-oliveira-ui-icon.png">
                   </div>
@@ -176,7 +178,7 @@
                   <h3>Branding (Gestão de marcas)</h3>
                   <h3>Print & Layout</h3>
                 </div>
-                <div class="col-md-4"><!-- Desenvolvimento -->
+                <div class="col-md-4 wow animated fadeIn"><!-- Desenvolvimento -->
                   <div class="caio-icon">
                       <img class="caio-icon-img" src="img/caio-oliveira-code-icon.png">
                   </div>
@@ -187,7 +189,7 @@
                   <h3>Wordpress</h3>
                   <h3>Layout Responsivo / Parallax</h3>
                 </div>
-                <div class="col-md-4"><!-- Criação -->
+                <div class="col-md-4 wow animated fadeInRight"><!-- Criação -->
                   <div class="caio-icon">
                       <img class="caio-icon-img" src="img/caio-oliveira-design-icon.png">
                   </div>
@@ -204,7 +206,7 @@
 
             <!-- Transforme suas ideías -->
             <section class="container-fluid" id="caio-obey"><!-- Section -->
-                <div class="padding">
+                <div class="padding wow animated fadeIn">
                   <h1 class="hero-text-title center" style="color: #fff;">Transforme suas Idéias</h1>
                   <h2 class="white-stuff center"><font style="font-weight: 300">Em </font>Realidade</h2>
                 </div>
@@ -215,13 +217,13 @@
             <section class="container-fluid " id="projects-caio-oliveira"><!-- Section -->
                 <div class="container caio-progress padding">
 
-                  <h1 class="hero-text-title dark-stuff center">Projetos <font class="green-stuff-2x">Recentes</font></h1>
-                  <div class="division-bar"></div>
+                  <h1 class="hero-text-title dark-stuff center wow animated fadeIn">Projetos <font class="green-stuff-2x">Recentes</font></h1>
+                  <div class="division-bar wow animated fadeIn"></div>
 
                   <div class="container padding">
 
                     <a href="#"><!-- Project 01 -->
-                      <div class="col-md-6 project-square">
+                      <div class="col-md-6 project-square wow animated fadeInDown">
                         <div class="project-item" style="background-image: url(img/caio-anadi.png); height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Anadi</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Anadi Consultoria ERP</span>
@@ -230,7 +232,7 @@
                       </div>
                     </a><!-- /Project 01 -->
                     <a href="#"><!-- Project 02 -->
-                      <div class="col-md-6 project-square">
+                      <div class="col-md-6 project-square wow animated fadeInDown">
                         <div class="project-item" style="background-image: url(img/caio-garda.png); height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Garda</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Garda Documentos e Serviços</span>
@@ -239,7 +241,7 @@
                       </div>
                     </a><!-- /Project 02 -->
                     <a href="#"><!-- Project 03 -->
-                      <div class="col-md-6 project-square"><!-- Project 03 -->
+                      <div class="col-md-6 project-square wow animated fadeInUp"><!-- Project 03 -->
                         <div class="project-item" style="background: url(img/caio-elaine.png) center; height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Elaine</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Elaine Projetos</span>
@@ -248,7 +250,7 @@
                       </div>
                     </a><!-- /Project 03 -->
                     <a href=""><!-- Project 04 -->
-                      <div class="col-md-3 col-xs-12 col-sm-6 project-square"><!-- Project 04 -->
+                      <div class="col-md-3 col-xs-12 col-sm-6 project-square wow animated fadeInUp"><!-- Project 04 -->
                         <div class="project-item" style="background: url(img/caio-memoriol.png) center; height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Memoriol</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Memoriol Brasil</span>
@@ -257,7 +259,7 @@
                       </div>
                     </a><!-- /Project 04 -->
                     <a href=""><!-- Project 05 -->
-                      <div class="col-md-3 col-xs-12 col-sm-6 project-square"><!-- Project 04 -->
+                      <div class="col-md-3 col-xs-12 col-sm-6 project-square wow animated fadeInUp"><!-- Project 04 -->
                         <div class="project-item" style="background: url(img/caio-lana.png) center; height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Lana Take a Pic</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Lana</span>
@@ -274,7 +276,7 @@
 
             <!-- Social Medias -->
             <section class="container-fluid" id="caio-social-medias"><!-- Section -->
-                <div class="padding center-div">
+                <div class="padding center-div wow animated fadeIn">
                     <a href="https://www.instagram.com/caiooliveiras" target="_BLANK"><button class="ghost-button-thick-border-social-medias" style="margin: 10px;"><i class="fa fa-instagram" style="padding-right: 3px;"></i> INSTAGRAM</button></a>
                     <a href="https://www.facebook.com/caiowebdesigner/" target="_BLANK"><button class="ghost-button-thick-border-social-medias" style="margin: 10px;"><i class="fa fa-facebook" style="padding-right: 3px;"></i> FACEBOOK</button></a>
                     <a href="https://www.twitter.com/caiooliveiras/" target="_BLANK"><button class="ghost-button-thick-border-social-medias" style="margin: 10px;"><i class="fa fa-twitter" style="padding-right: 3px;"></i> TWITTER</button></a>
@@ -286,11 +288,13 @@
             <section class="container-fluid" id="caio-contact"><!-- Section -->
                 <div class="container padding center-div">
                   <div class="row caio-form">
-                    <i class="fa fa-paper-plane fa-3x" style="color: #fff;"></i>
-                    <h1 class="hero-text-title white-stuff">Contrate meus Serviços</h1>
-                    <p class="caio-contact-p thin">Vamos <strong><span class="green-stuff">trabalhar juntos?</span></strong> Conte me um pouco sobre seu projeto e eu te retornarei em breve!</p>
+                    <div class="wow animated fadeInDown">
+                      <i class="fa fa-paper-plane fa-3x" style="color: #fff;"></i>
+                      <h1 class="hero-text-title white-stuff">Contrate meus Serviços</h1>
+                      <p class="caio-contact-p thin">Vamos <strong><span class="green-stuff">trabalhar juntos?</span></strong> Conte me um pouco sobre seu projeto e eu te retornarei em breve!</p>
+                    </div>
                     <!-- Formulario de contato -->
-                    <form action="contact.php">
+                    <form action="contact.php" class="wow animated fadeInUp">
                       <div class="col-md-offset-2 col-md-4">
                         <input id="nome" name="nome" type="text" placeholder="Seu Nome" class="form-control caio-input" required="">
                       </div>
@@ -359,6 +363,23 @@
     <!-- Change Hamburger Color -->
     <script src="js/changeColorHamburger.js"></script>
     <!-- /Change Hamburger Color -->
+    <!-- WoW.JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- /Wow.JS-->
+    <!-- Google Analytics -->
+    <script>
+      //(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      //(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      //m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      //})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      //ga('create', 'UA-42386499-3', 'auto');
+      //ga('send', 'pageview');
+    </script>
+    <!-- /Google Analytics
 
   </body>
 </html>
