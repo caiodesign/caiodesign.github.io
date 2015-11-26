@@ -183,15 +183,42 @@ HEADER
 */
 #caio-oliveira{
   background: url(../img/caio-oliveira-header.png) center center no-repeat fixed;
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
+}
+#caio-oliveira-message{
+  background: url(../img/caio-header-message.png) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Preserve aspet ratio */
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+#caio-oliveira-message-error{
+  background: url(../img/caio-header-message-error.png) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Preserve aspet ratio */
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
 }
 .caio-header{
   margin: 0 auto;
   text-align: center;
   padding-top: 17%;
+}
+.caio-header-message{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 12%;
 }
 .caio{
   letter-spacing: 7px;
@@ -231,6 +258,29 @@ HEADER
   color: #6BA368;
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
+}
+
+.ghost-button-thick-border-yellow {
+  background-color: transparent;
+  display: inline-block;
+  width: 150px;
+  height: 65px;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border-yellow:hover,
+.ghost-button-thick-border-yellow:active {
+  background-color: #fff;
+  color: #f1c40f;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+              border 0.3 ease-in;
 }
 
 .ghost-button-thick-border-social-medias {
