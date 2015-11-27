@@ -30,8 +30,8 @@
 
     <!-- My Style -->
     <link href="css/nav.css" rel="stylesheet"><!-- Navbar Style -->
-    <link href="css/style.css" rel="stylesheet"><!-- My Style -->
     <link href="css/animate.min.css" rel="stylesheet"><!-- Animation.css Style -->
+    <link href="css/style.css" rel="stylesheet"><!-- My Style -->
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -140,13 +140,9 @@
                   Logotipo
                     <div id="caio-logo" style="background: url(img/logo-contact.png) center no-repeat; height: 150px; margin-bottom: 4%;"></div>
                 -->
-                <div class="animated fadeInDown">
                   <span class="hero-text caio">CAIO </span><span class="hero-text oliveira">OLIVEIRA</span>
-                </div>
-                <div class="animated fadeInUp">
                   <h2 style="font-weight: 300; color: #fff;">Designer <span style="font-weight: 800">&</span> Front-End Developer</h2>
-                </div>
-                <div class="caio-contato animated fadeInUp">
+                <div class="caio-contato">
                   <button class="ghost-button-thick-border">CONTATO</button>
                 </div>
                 <div id="startchange"></div><!-- Change Hamburger Color -->
@@ -182,7 +178,7 @@
                   <h3>Branding (Gestão de marcas)</h3>
                   <h3>Print & Layout</h3>
                 </div>
-                <div class="col-md-4 wow animated fadeIn"><!-- Desenvolvimento -->
+                <div class="col-md-4 wow animated fadeInDown"><!-- Desenvolvimento -->
                   <div class="caio-icon">
                       <img class="caio-icon-img" src="img/caio-oliveira-code-icon.png">
                   </div>
@@ -210,7 +206,7 @@
 
             <!-- Transforme suas ideías -->
             <section class="container-fluid" id="caio-obey"><!-- Section -->
-                <div class="padding wow animated fadeIn">
+                <div class="padding wow animated fadeInDown">
                   <h1 class="hero-text-title center" style="color: #fff;">Transforme suas Idéias</h1>
                   <h2 class="white-stuff center"><font style="font-weight: 300">Em </font>Realidade</h2>
                 </div>
@@ -255,7 +251,7 @@
                       </div>
                     </a><!-- /Project 03 -->
                     <a href="http://memoriolbrasil.com.br" target="_BLANK"><!-- Project 04 -->
-                      <div class="col-md-3 col-xs-12 col-sm-6 project-square wow animated fadeInUp"><!-- Project 04 -->
+                      <div class="col-md-3 col-xs-12 col-sm-6 project-square wow animated fadeInUp"><!-- Project 04 <--></-->
                         <div class="project-item" style="background: url(img/caio-memoriol.png) center; height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Memoriol</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Memoriol Brasil</span>
@@ -264,7 +260,7 @@
                       </div>
                     </a><!-- /Project 04 -->
                     <a href="http://lanatakeapic.tumblr.com" target="_BLANK"><!-- Project 05 -->
-                      <div class="col-md-3 col-xs-12 col-sm-6 project-square wow animated fadeInUp"><!-- Project 04 -->
+                      <div class="col-md-3 col-xs-12 col-sm-6 project-square wow animated fadeInRight"><!-- Project 04 -->
                         <div class="project-item" style="background: url(img/caio-lana.png) center; height: 280px;">
                           <div class="project-text">
                             <span class="project-text-span-primary">Lana Take a Pic</span><span style="color: #fff;"> / </span><span class="project-text-span-secundary">Lana</span>
@@ -280,12 +276,11 @@
             <!-- /Recent Projects -->
 
             <!-- Social Medias -->
-
             <section class="container-fluid" id="caio-social-medias"><!-- Section -->
-                <div class="padding center-div wow animated fadeIn">
-                    <a href="https://www.instagram.com/caiooliveiras" target="_BLANK"><button class="ghost-button-thick-border-social-medias" style="margin: 10px;"><i class="fa fa-instagram" style="padding-right: 3px;"></i> INSTAGRAM</button></a>
-                    <a href="https://www.facebook.com/caiowebdesigner/" target="_BLANK"><button class="ghost-button-thick-border-social-medias" style="margin: 10px;"><i class="fa fa-facebook" style="padding-right: 3px;"></i> FACEBOOK</button></a>
-                    <a href="https://www.twitter.com/caiooliveiras/" target="_BLANK"><button class="ghost-button-thick-border-social-medias" style="margin: 10px;"><i class="fa fa-twitter" style="padding-right: 3px;"></i> TWITTER</button></a>
+                <div class="padding center-div">
+                    <a href="https://www.instagram.com/caiooliveiras" target="_BLANK"><button class="ghost-button-thick-border-social-medias-instagram wow animated fadeInLeft" style="margin: 10px;"><i class="fa fa-instagram" style="padding-right: 3px;"></i> INSTAGRAM</button></a>
+                    <a href="https://www.facebook.com/caiowebdesigner/" target="_BLANK"><button class="ghost-button-thick-border-social-medias-facebook wow animated fadeInDown" style="margin: 10px;"><i class="fa fa-facebook" style="padding-right: 3px;"></i> FACEBOOK</button></a>
+                    <a href="https://www.twitter.com/caiooliveiras/" target="_BLANK"><button class="ghost-button-thick-border-social-medias-twitter wow animated fadeInRight" style="margin: 10px;"><i class="fa fa-twitter" style="padding-right: 3px;"></i> TWITTER</button></a>
                 </div>
             </section><!-- /Section -->
             <!-- Social Medias -->
@@ -311,10 +306,10 @@
                       <div class="col-md-offset-2 col-md-4">
                           <select class="form-control caio-input" id="valor" name="valor" >
                             <option value="" disabled selected style="display: none;">Selecione um valor</option>
-                            <option value="Acima de $2,500">Acima de $2,500</option>
-                            <option value="$2,500-$5,000">$2,500-$5,000</option>
-                            <option value="$5,000-$25,000">$5,000-$25,000</option>
-                            <option value="$25,000 pra Cima">$25,000 pra Cima</option>
+                            <option value="Acima de $1,000">Acima de $1.000</option>
+                            <option value="$2,000-$4,000">$2,000-$4,000</option>
+                            <option value="$4,000-$8,000">4,000-$8,000</option>
+                            <option value="$8,000 pra Cima">$8,000 pra Cima</option>
                             <option value="Ainda estou pensando">Ainda estou pensando</option>
                           </select>
                       </div>
@@ -325,7 +320,7 @@
                         <textarea id="mensagem" name="mensagem" placeholder="Descreva seu projeto" class="form-control caio-input" rows="10"></textarea>
                       </div>
                       <div class="col-md-8 col-md-offset-2">
-                        <button class="ghost-button-thick-border-social-medias" style="width: 100%; margin: 10px;" type="submit" name="submit">ENVIAR</button>
+                        <button class="ghost-button-thick-border-green" style="width: 100%; margin: 10px;" type="submit" name="submit">ENVIAR</button>
                       </div>
                     </form>
                     <!-- /Formulario de contato -->
@@ -383,7 +378,6 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-42386499-3', 'auto');
       ga('send', 'pageview');
     </script>

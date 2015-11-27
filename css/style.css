@@ -283,7 +283,31 @@ HEADER
               border 0.3 ease-in;
 }
 
-.ghost-button-thick-border-social-medias {
+.ghost-button-thick-border-green {
+  font-weight: 800;
+  background-color: transparent;
+  display: inline-block;
+  width: 150px;
+  height: 65px;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border-green:hover,
+.ghost-button-thick-border-green:active {
+  background-color: #fff;
+  color: #5EFC8D;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+              border 0.3 ease-in;
+}
+
+.ghost-button-thick-border-social-medias-twitter {
   background-color: transparent;
   display: inline-block;
   width: 170px;
@@ -297,11 +321,59 @@ HEADER
   transition: background-color 0.2s ease-out,
               color 0.2s ease-out;
 }
-.ghost-button-thick-border-social-medias:hover,
-.ghost-button-thick-border-social-medias:active {
-  background-color: #6BA368;
+.ghost-button-thick-border-social-medias-twitter:hover,
+.ghost-button-thick-border-social-medias-twitter:active {
+  background-color: #1AA9E1;
   color: #fff;
-  border: 3px solid #6BA368;
+  border: 3px solid #1AA9E1;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+              border 0.3s ease-in;
+}
+
+.ghost-button-thick-border-social-medias-facebook {
+  background-color: transparent;
+  display: inline-block;
+  width: 170px;
+  height: 75px;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border-social-medias-facebook:hover,
+.ghost-button-thick-border-social-medias-facebook:active {
+  background-color: #3B5A9A;
+  color: #fff;
+  border: 3px solid #3B5A9A;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+              border 0.3s ease-in;
+}
+
+.ghost-button-thick-border-social-medias-instagram {
+  background-color: transparent;
+  display: inline-block;
+  width: 170px;
+  height: 75px;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border-social-medias-instagram:hover,
+.ghost-button-thick-border-social-medias-instagram:active {
+  background-color: #4D423C;
+  color: #fff;
+  border: 3px solid #4D423C;
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
               border 0.3s ease-in;
@@ -499,3 +571,7 @@ PRELOAD
 	background-color: #CCCCCC;
 	height: 1px;
 }
+
+/*
+CUSTOM ANIMATE.CSS
+*/
