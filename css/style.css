@@ -225,7 +225,6 @@ HEADER
     background: url(../img/caio-web-site-design.png);
     background-attachment: scroll;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center center;
   }
 }
