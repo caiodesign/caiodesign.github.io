@@ -308,7 +308,7 @@ html { height: 100%;}
 .hamburger.scrolling.is-closed .hamb-top,
 .hamburger.scrolling.is-closed .hamb-middle,
 .hamburger.scrolling.is-closed .hamb-bottom {
-  background-color: #4C6663;
+  background-color: #ff415c;
 }
 
 .hamburger.scrolling-white.is-closed .hamb-top,
