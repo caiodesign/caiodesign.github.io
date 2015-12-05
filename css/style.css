@@ -219,6 +219,16 @@ HEADER
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px){
+  #caio-oliveira{
+    background: url(../img/caio-web-site-design.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+}
 #caio-oliveira-message{
   background: url(../img/caio-header-message.png) center center no-repeat fixed;
   -webkit-background-size: cover;
