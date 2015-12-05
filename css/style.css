@@ -628,6 +628,14 @@ OBEY
   -o-background-size: cover;,
   background-size: cover;
 }
+@media screen and (max-width: 768px){
+  #caio-obey{
+    background: url(../img/obey.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+  }
+}
 
 .hero-strip {
   margin-top: 120px;
@@ -675,6 +683,14 @@ CONTACT
   -moz-background-size: cover;
   -o-background-size: cover;,
   background-size: cover;
+}
+@media screen and (max-width: 768px){
+  #caio-contact{
+    background: url(../img/caio-contact.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+  }
 }
 
 input{
