@@ -225,7 +225,7 @@ HEADER
 
 @media screen and (max-width: 768px){
   #caio-oliveira{
-    background: url(../img/caio-web-site-design.png);
+    background: url(../img/caio-web-site-design.jpg);
     background-attachment: scroll;
     background-size: cover;
     background-position: center center;
@@ -633,7 +633,7 @@ OBEY
 }
 @media screen and (max-width: 768px){
   #caio-obey{
-    background: url(../img/obey.png);
+    background: url(../img/obey.jpg);
     background-attachment: scroll;
     background-size: cover;
     background-position: center center;
@@ -689,7 +689,7 @@ CONTACT
 }
 @media screen and (max-width: 768px){
   #caio-contact{
-    background: url(../img/caio-contact.png);
+    background: url(../img/caio-contact.jpg);
     background-attachment: scroll;
     background-size: cover;
     background-position: center center;
