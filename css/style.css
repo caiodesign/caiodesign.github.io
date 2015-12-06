@@ -223,7 +223,7 @@ HEADER
   background-size: cover;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   #caio-oliveira{
     background: url(../img/caio-web-site-design.jpg);
     background-attachment: scroll;
@@ -631,7 +631,7 @@ OBEY
   -o-background-size: cover;,
   background-size: cover;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   #caio-obey{
     background: url(../img/obey.jpg);
     background-attachment: scroll;
@@ -687,7 +687,7 @@ CONTACT
   -o-background-size: cover;,
   background-size: cover;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   #caio-contact{
     background: url(../img/caio-contact.jpg);
     background-attachment: scroll;
