@@ -1,1 +1,6 @@
 Sitemap: http://caiodesign.github.io/sitemap.xml  
+
+user-agent: *
+Disallow: /contato.html
+Disallow: /contato-error.html
+Disallow: /ideias.html
